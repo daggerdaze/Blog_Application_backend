@@ -12,7 +12,7 @@ import java.security.Principal;
 import java.util.List;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/Users")
 @CrossOrigin(origins = "http://localhost:4200",allowedHeaders = "*")
 public class UserController {
 
